@@ -4,7 +4,7 @@
   become: yes
   become_method: sudo
   tasks:
-    - name: Install Docker on Amazon Linux 2
+    - name: Install Docker on Linux
       ansible.builtin.package:
         name: docker
         state: present
